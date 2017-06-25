@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :status %>
-    <%= form.number_field :status, id: :order_status %>
+    <%= form.select :status, Order.statuses.keys %>
   </div>
 
   <div class="actions">
