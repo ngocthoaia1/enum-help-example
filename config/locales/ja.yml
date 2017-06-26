@@ -1,7 +1,7 @@
 ja:
-  order:
-    status:
-      finished: 完成
-      nopayment: 未支付
-      failed: 失败
-      destroyed: 已删除
+  enums:
+    order:
+      status:
+        finished: 完成
+        nopayment: 未支付
+        failed: 失败

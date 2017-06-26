@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :status %>
-    <%= form.select :status, Order.statuses_i18n %>
+    <%= form.select :status, Order.statuses_i18n.invert %>
   </div>
 
   <div class="actions">
